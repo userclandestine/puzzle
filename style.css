@@ -1,0 +1,43 @@
+.input {
+	position: relative;
+	width: 25px;
+}
+
+.build {
+    width: 50px;
+    height: 25px;
+    background-color: #AAAAFF;
+    margin: 5px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+	line-height: 25px;
+}
+
+.build p {
+    position: relative;
+	font-size: 1em;
+	text-align: center;
+	margin: 0 auto;
+	color: #FFFFFF
+}
+
+.container {
+    position: absolute;
+    background-color: #141B6E;
+	border: 5px solid #3A46CF;
+	border-style: inset;
+}
+
+.piece {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #dddddd;
+    border: 2px solid #aaaaaa;
+    border-style: outset;
+}
+
+.dragDiv {
+	background-color: #FF0000;
+	opacity: 0.5;
+}
